@@ -12,12 +12,15 @@
 #img-qr img {
   width: 300px;
 }
-.fa-hammer {
+.fa-hammer,
+.fa-heart {
   font-size: 80px;
   color: pink;
   animation: animation__caibua 2s infinite;
 }
-
+.carousel-item {
+  padding: 20%;
+}
 @keyframes animation__caibua {
   0% {
     transform: rotate(10deg) translate(2px, 2px);
