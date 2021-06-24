@@ -12,3 +12,20 @@
 #img-qr img {
   width: 300px;
 }
+.fa-hammer {
+  font-size: 80px;
+  color: pink;
+  animation: animation__caibua 2s infinite;
+}
+
+@keyframes animation__caibua {
+  0% {
+    transform: rotate(10deg) translate(2px, 2px);
+  }
+  50% {
+    transform: rotate(-10deg) translate(-2px, -2px);
+  }
+  100% {
+    transform: rotate(10deg) translate(2px, 2px);
+  }
+}
